@@ -1,18 +1,18 @@
-# Mybooks
+## Mybooks
 
 Projet créé avec [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1
 
 mettre à jour @angular/cli => npm i -g @angular/cli
 
-# Création du projet angular
+## Création du projet angular
 
 ng new books --skip-tests
 
-# Lancer l'application
+## Lancer l'application
 
 ng serve -o
 
-# Ajout d'une règle prettier pour afficher les single quote dans .prettierrc.js
+## Ajout d'une règle prettier pour afficher les single quote dans .prettierrc.js
 
 ```
 module.exports = {
@@ -20,13 +20,13 @@ module.exports = {
 };
 ```
 
-# Installations complémentaires
+## Installations complémentaires
 
 ng add @angular/material
 npm i bootstrap@3.3.7
 npm i firebase @angular/fire
 
-# CSS : Angular.json
+## CSS : Angular.json
 
 ```
 "styles": [
@@ -36,18 +36,18 @@ npm i firebase @angular/fire
 ]
 ```
 
-# Modules Material
+## Modules Material
 
 Créer le fichier material.module.ts
 L'importer dans app.module.ts
 
-# Firebase
+## Firebase
 
 Créer un compte
 Créer un projet
 Copier la configuration
 
-# Environnement
+## Environnement
 
 Coller la configuration Firebase dans environment.ts
 
@@ -66,83 +66,83 @@ export const environment = {
 };
 ```
 
-# Header
+## Header
 
 Créer le header
 
-# Router Outlet
+## Router Outlet
 
 Préparer le fichier app.component.html pour permettre le routing
 
-# Signin
+## Signin
 
 Créer le componsant signin
 
-# Signup
+## Signup
 
 Créer le composant signup
 
-# Auth
+## Auth
 
 Créer le service auth
 
-# Guard
+## Guard
 
 Créer le service auth-guard
 
-# Interface
+## Interface
 
 Créer l'interface book
 
-# Module
+## Module
 
 Créer le module book
 
-# Composants
+## Composants
 
 Créer les composants book-list, book-detail, book-form
 
-# Routing
+## Routing
 
 Créer le fichier routing de book
 
-# Service
+## Service
 
 Créer le service book
 Créer toutes les méthodes
 
-# Register
+## Register
 
 Préparer le formulaire d'inscription
 
-# Login
+## Login
 
 Préparer le formulaire de login
 
-# Logout
+## Logout
 
 Implémenter la fonctionnalié du logout
 
-# Formulaire de création d'un book
+## Formulaire de création d'un book
 
 Préparer le formulaire d'ajout d'un book
 
-# Liste des books
+## Liste des books
 
 Afficher la liste des books
 
-# Supprimer un book
+## Supprimer un book
 
 Supprimer un book de la liste
 
-# Afficher le détail d'un book
+## Afficher le détail d'un book
 
 Afficher la vue du détail d'un book
 
-# Modifier un book
+## Modifier un book
 
 Implémenter la modification d'un book avec le même formulaire que celui qui permet de créer un book
 
-# Upload image d'un book
+## Upload image d'un book
 
 Implémenter l'upload d'une image dans le formulaire de création d'un book
