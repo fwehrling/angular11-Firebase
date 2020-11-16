@@ -1,0 +1,62 @@
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h2>{{ status }} un nouveau livre</h2>
+    <form [formGroup]="bookForm" (ngSubmit)="onSaveBook(book?.id)">
+      <div class="form-group">
+        <label for="title">Titre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          formControlName="title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="author">Auteur</label>
+        <input
+          type="text"
+          class="form-control"
+          id="author"
+          formControlName="author"
+        />
+      </div>
+      <div class="form-group">
+        <label for="author">Résumé</label>
+        <textarea
+          class="form-control"
+          id="summary"
+          formControlName="summary"
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Image</label>
+        <input
+          type="file"
+          class="form-control"
+          (change)="detectFiles($event)"
+          accept="image/*"
+        />
+        <div *ngIf="fileUrl">
+          <img [src]="fileUrl" width="300" />
+        </div>
+      </div>
+      <button
+        *ngIf="!loading"
+        class="btn btn-success"
+        [disabled]="bookForm.invalid || !fileUrl"
+        type="submit"
+      >
+        Enregistrer
+      </button>
+      <button *ngIf="loading" class="btn btn-primary" type="button" disabled>
+        <span
+          class="spinner-border spinner-border-sm"
+          role="status"
+          aria-hidden="true"
+        ></span>
+        Loading...
+      </button>
+    </form>
+  </div>
+</div>
