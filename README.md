@@ -1,8 +1,8 @@
 ## Mybooks
 
-Projet créé avec [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1
+- Projet créé avec [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1
 
-mettre à jour @angular/cli => npm i -g @angular/cli
+- mettre à jour @angular/cli => npm i -g @angular/cli
 
 ## Création du projet angular
 
@@ -22,9 +22,9 @@ module.exports = {
 
 ## Installations complémentaires
 
-ng add @angular/material
-npm i bootstrap@3.3.7
-npm i firebase @angular/fire
+- ng add @angular/material
+- npm i bootstrap@3.3.7
+- npm i firebase @angular/fire
 
 ## CSS : Angular.json
 
@@ -38,14 +38,14 @@ npm i firebase @angular/fire
 
 ## Modules Material
 
-Créer le fichier material.module.ts
-L'importer dans app.module.ts
+- Créer le fichier material.module.ts
+- L'importer dans app.module.ts
 
 ## Firebase
 
-Créer un compte
-Créer un projet
-Copier la configuration
+- Créer un compte
+- Créer un projet
+- Copier la configuration
 
 ## Environnement
 
@@ -108,8 +108,8 @@ Créer le fichier routing de book
 
 ## Service
 
-Créer le service book
-Créer toutes les méthodes
+- Créer le service book
+- Créer toutes les méthodes
 
 ## Register
 
